@@ -115,38 +115,38 @@ public class Main {
         System.out.println();
     }
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-         System.out.println("\n----------------------------------------");
-        System.out.println("  Recorridos de Arboles Binarios");
-        System.out.println("------------------------------------------");
+            System.out.println("\n----------------------------------------");
+            System.out.println("  Recorridos de Arboles Binarios");
+            System.out.println("------------------------------------------");
 
-        // Crear un árbol binario de ejemplo
-        Nodo raiz = new Nodo(10);      // Nodo raíz con valor 10
-        raiz.izquierda = new Nodo(5); // Hijo izquierdo del nodo raíz con valor 5
-        raiz.derecha = new Nodo(15); // Hijo derecho del nodo raíz con valor 15
-        raiz.izquierda.izquierda = new Nodo(2); // Hijo izquierdo del nodo 5 con valor 2
-        raiz.izquierda.derecha = new Nodo(7); // Hijo derecho del nodo 5 con valor 7
-        raiz.derecha.izquierda = new Nodo(12); // Hijo izquierdo del nodo 15 con valor 12
-        raiz.derecha.derecha = new Nodo(20); // Hijo derecho del nodo 15 con valor 20
+            // Crear un árbol binario de ejemplo
+            Nodo raiz = new Nodo(10);      // Nodo raíz con valor 10
+            raiz.izquierda = new Nodo(5); // Hijo izquierdo del nodo raíz con valor 5
+            raiz.derecha = new Nodo(15); // Hijo derecho del nodo raíz con valor 15
+            raiz.izquierda.izquierda = new Nodo(2); // Hijo izquierdo del nodo 5 con valor 2
+            raiz.izquierda.derecha = new Nodo(7); // Hijo derecho del nodo 5 con valor 7
+            raiz.derecha.izquierda = new Nodo(12); // Hijo izquierdo del nodo 15 con valor 12
+            raiz.derecha.derecha = new Nodo(20); // Hijo derecho del nodo 15 con valor 20
 
-        System.out.println("RECORRIDOS DE ARBOLES BINARIOS - UTA");
+            System.out.println("RECORRIDOS DE ARBOLES BINARIOS - UTA");
 
-        System.out.print("Preorden: ");
-        preorden(raiz);
+            System.out.print("Preorden: ");
+            preorden(raiz);
 
-        System.out.print("\nInorden: ");
-        inorden(raiz);
+            System.out.print("\nInorden: ");
+            inorden(raiz);
 
-        System.out.print("\nPostorden: ");
-        postorden(raiz);
+            System.out.print("\nPostorden: ");
+            postorden(raiz);
 
-        System.out.print("\nBFS: ");
-        bfs(raiz);
+            System.out.print("\nBFS: ");
+            bfs(raiz);
 
-        System.out.println();
+            System.out.println();
 
-        //caso real SmartCampus UTA
-        casoRealSmartCampus();
+            //caso real SmartCampus UTA
+            casoRealSmartCampus();
+        }
     }
-}
