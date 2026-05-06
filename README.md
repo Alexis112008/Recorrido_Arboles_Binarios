@@ -205,6 +205,22 @@ Ejecución del caso SmartCampus UTA en C++
 
 ![Ejecución del caso SmartCampus UTA en C++](img/m2.png)
 
+**Explicación del caso real — SmartCampus UTA:**
+
+El árbol modela el sistema de trámites estudiantiles de la UTA. La raíz es el nodo **Trámites (1)**, que se divide en dos ramas principales:
+
+- **Académicos (2):** agrupa trámites como Matrícula, Retiro de materia, Cambio de carrera, Convalidación y Apelación de nota.
+- **Financieros (3):** agrupa Becas, Pagos y Certificado de estudios.
+
+Cada recorrido tiene una utilidad específica en este contexto:
+
+| Recorrido | Aplicación en SmartCampus |
+|---|---|
+| **Preorden** | Muestra la jerarquía completa desde la raíz, útil para listar categorías antes que sus sub-trámites |
+| **Inorden** | Recorre los trámites en orden lógico de procesamiento |
+| **Postorden** | Procesa los trámites hoja antes que su categoría padre, útil para cerrar o eliminar expedientes |
+| **BFS** | Atiende los trámites nivel por nivel, simulando una cola de atención por prioridad jerárquica |
+
 ---
 
 ### Implementación en Java
@@ -236,6 +252,22 @@ Usa `Queue` con `LinkedList` para recorrer nivel por nivel.
 
 ![Ejecución del caso SmartCampus UTA en C++](img/j5.png)
 ![Ejecución del caso SmartCampus UTA en C++](img/j6.png)
+
+**Explicación del caso real — SmartCampus UTA:**
+
+El árbol modela el sistema de trámites estudiantiles de la UTA. La raíz es el nodo **Trámites (1)**, que se divide en dos ramas principales:
+
+- **Académicos (2):** agrupa trámites como Matrícula, Retiro de materia, Cambio de carrera, Convalidación y Apelación de nota.
+- **Financieros (3):** agrupa Becas, Pagos y Certificado de estudios.
+
+Cada recorrido tiene una utilidad específica en este contexto:
+
+| Recorrido | Aplicación en SmartCampus |
+|---|---|
+| **Preorden** | Muestra la jerarquía completa desde la raíz, útil para listar categorías antes que sus sub-trámites |
+| **Inorden** | Recorre los trámites en orden lógico de procesamiento |
+| **Postorden** | Procesa los trámites hoja antes que su categoría padre, útil para cerrar o eliminar expedientes |
+| **BFS** | Atiende los trámites nivel por nivel, simulando una cola de atención por prioridad jerárquica |
 
 ---
 
