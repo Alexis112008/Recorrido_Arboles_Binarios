@@ -57,7 +57,69 @@ public class Main {
         }
     }
 
+    // CASO REAL - SmartCampus UTA
+    public static void casoRealSmartCampus() {
+        System.out.println("\n----------------------------------------");
+        System.out.println("  CASO REAL - SmartCampus UTA");
+        System.out.println("  Arbol de Tramites Estudiantiles");
+        System.out.println("------------------------------------------");
+
+        // Nodos base
+        Nodo tramites    = new Nodo(1);
+        Nodo academicos  = new Nodo(2);
+        Nodo financieros = new Nodo(3);
+        Nodo matricula   = new Nodo(4);
+        Nodo retiro      = new Nodo(5);
+        Nodo beca        = new Nodo(6);
+        Nodo pago        = new Nodo(7);
+
+        // 5 nodos adicionales
+        Nodo cambioCarrera = new Nodo(8);
+        Nodo convalidacion = new Nodo(9);
+        Nodo apelacion     = new Nodo(10);
+        Nodo revision      = new Nodo(11);
+        Nodo certificado   = new Nodo(12);
+
+        // Construcción del árbol
+        tramites.izquierda    = academicos;
+        tramites.derecha      = financieros;
+        academicos.izquierda  = matricula;
+        academicos.derecha    = retiro;
+        financieros.izquierda = beca;
+        financieros.derecha   = pago;
+
+        // Nodos adicionales
+        matricula.izquierda    = cambioCarrera;
+        matricula.derecha      = convalidacion;
+        convalidacion.derecha  = apelacion;
+        apelacion.izquierda    = revision;
+        beca.izquierda         = certificado;
+
+        System.out.println("\nLEYENDA DE NODOS:");
+        System.out.println("  1 = Tramites  2 = Academicos  3 = Financieros");
+        System.out.println("  4 = Matricula 5 = Retiro      6 = Beca");
+        System.out.println("  7 = Pago      8 = CambioCarr  9 = Convalidacion");
+        System.out.println(" 10 = Apelacion 11 = Revision  12 = Certificado");
+
+        System.out.print("\nPreorden  (jerarquia): ");
+        preorden(tramites);
+
+        System.out.print("\nInorden   (orden proc): ");
+        inorden(tramites);
+
+        System.out.print("\nPostorden (liberar mem): ");
+        postorden(tramites);
+
+        System.out.print("\nBFS       (nivel x nivel): ");
+        bfs(tramites);
+        System.out.println();
+    }
+
     public static void main(String[] args) {
+
+         System.out.println("\n----------------------------------------");
+        System.out.println("  Recorridos de Arboles Binarios");
+        System.out.println("------------------------------------------");
 
         // Crear un árbol binario de ejemplo
         Nodo raiz = new Nodo(10);      // Nodo raíz con valor 10
@@ -83,5 +145,8 @@ public class Main {
         bfs(raiz);
 
         System.out.println();
+
+        //caso real SmartCampus UTA
+        casoRealSmartCampus();
     }
 }
