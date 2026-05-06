@@ -32,13 +32,22 @@ Los estudiantes deben adaptar el código para representar módulos del proyecto 
 7. Documentar la solución en README.md.
 8. Subir capturas de ejecución.
 
-## Preguntas de reflexión
+## 🧠 Respuestas de reflexión
 
-1. ¿Qué recorrido sirve para ordenar valores en un BST?
-2. ¿Qué diferencia existe entre DFS y BFS?
-3. ¿Por qué BFS requiere una cola?
-4. ¿En qué caso real se puede usar Preorden?
-5. ¿En qué caso real se puede usar Postorden?
+1. ¿Qué recorrido sirve para ordenar valores en un BST?  
+El inorden, porque recorre de menor a mayor en un árbol binario de búsqueda.
+
+2. ¿Qué diferencia existe entre DFS y BFS?  
+DFS recorre en profundidad por ramas, BFS recorre por niveles usando cola.
+
+3. ¿Por qué BFS requiere una cola?  
+Porque guarda el orden de visita por niveles sin perder el recorrido.
+
+4. ¿En qué caso real se puede usar Preorden?  
+Para copiar o guardar la estructura del árbol.
+
+5. ¿En qué caso real se puede usar Postorden?  
+Para borrar o procesar primero los hijos antes del nodo padre.
 
 ## Producto final
 Cada grupo debe entregar el enlace de su repositorio con código, explicación, capturas y conclusiones.
