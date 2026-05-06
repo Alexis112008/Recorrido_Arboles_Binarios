@@ -119,7 +119,7 @@ java Main
 ### Repositorio en GitHub
 Se creó el repositorio **"Recorrido_Arboles_Binarios"** en GitHub, organizado con carpetas para código fuente, documentación y recursos. Incluye archivos `.gitignore` y `README.md`.
 
-> 📸 Repositorio Recorrido_Arboles_Binarios
+
 ![Repositorio Recorrido_Arboles_Binarios](img/a.png)
 
 ---
@@ -127,7 +127,7 @@ Se creó el repositorio **"Recorrido_Arboles_Binarios"** en GitHub, organizado c
 ### Historial de Commits
 Se realizaron **14 commits** en total, cada uno con una descripción clara del cambio realizado, evidenciando el desarrollo progresivo del proyecto.
 
-> 📸  Historial de commits en GitBash (`git log --oneline`)
+
 ![Historial de commits en GitBash](img/b.png)
 ---
 
@@ -138,7 +138,7 @@ El repositorio fue clonado con el siguiente comando:
 git clone https://github.com/<usuario>/Recorrido_Arboles_Binarios.git
 ```
 
-> 📸 Repositorio remoto con archivos cargados
+
 ![Repositorio remoto con archivos cargados](img/e.png)
 ---
 
@@ -159,7 +159,7 @@ Recorrido_Arboles_Binarios/
 └── README.md
 ```
 
-> 📸  Estructura de carpetas en VS Code
+
 ![Estructura de carpetas en VS Code](img/d.png)
 
 ---
@@ -169,7 +169,7 @@ Recorrido_Arboles_Binarios/
 **Estructura del Nodo:**  
 Se define una `struct Nodo` con un entero `dato` y dos punteros `izquierda` y `derecha`, inicializados en `nullptr`.
 
-> 📸 Estructura del Nodo en C++
+
 ![Estructura del Nodo en C++e](img/f.png)
 
 **Recorridos DFS implementados:**
@@ -177,32 +177,32 @@ Se define una `struct Nodo` con un entero `dato` y dos punteros `izquierda` y `d
 - **Inorden:** Izquierda → Raíz → Derecha. Permite obtener datos en orden lógico.
 - **Postorden:** Izquierda → Derecha → Raíz. Útil para eliminar o evaluar nodos.
 
-> 📸 Recorridos DFS en C++
+
 ![Recorridos DFS en C++](img/g.png)
 
 **Recorrido BFS:**  
 Usa una `queue` de la STL para recorrer el árbol nivel por nivel (FIFO).
 
-> 📸 Recorrido BFS en C++
+
 ![Recorridos DFS en C++](img/h.png)
 
 **Función main:**  
 Construye el árbol manualmente, agrega nodos adicionales para mayor complejidad, y ejecuta los cuatro recorridos.
 
-> 📸 Ilustración 11 — Main en C++
+
 ![Main en C++](img/b1.png)
-> 📸 Ejecución de recorridos en C++
+
 ![Ejecución de recorridos en C++](img/m1.png)
 
 **Caso real — SmartCampus UTA (C++):**  
 Se modela el sistema de trámites de la UTA (matrícula, retiros, becas, pagos, cambio de carrera, convalidación, apelación, revisión de exámenes, certificados) como árbol binario y se aplican los cuatro recorridos.
 
-> 📸  Caso Real SmartCampus en C++
-![Caso Real SmartCampus en C++](img/a1.png)
+
+Ejecución del caso SmartCampus UTA en C++
 
 **Captura de ejecución C++:**
  
-> 📸Ejecución del caso SmartCampus UTA en C++
+
 ![Ejecución del caso SmartCampus UTA en C++](img/m2.png)
 
 ---
@@ -212,31 +212,30 @@ Se modela el sistema de trámites de la UTA (matrícula, retiros, becas, pagos, 
 **Clase Nodo:**  
 Define una clase `Nodo` con un entero `dato` y referencias `izquierdo` y `derecho`, inicializadas en `null`.
 
-> 📸 *[Insertar captura: Ilustración 14 — Estructura de Nodo en Java]*
+![Ejecución del caso SmartCampus UTA en C++](img/j1.png)
 
 **Recorridos DFS:**
 - **Preorden:** Recorre de nivel superior a inferior, manteniendo la jerarquía.
 - **Inorden:** Muy útil en árboles de búsqueda (valores en orden ascendente).
 - **Postorden:** Procesa hijos antes que el padre; útil para eliminar o evaluar.
 
-> 📸 *[Insertar captura: Ilustración 15 — Recorridos DFS en Java]*
+![Ejecución del caso SmartCampus UTA en C++](img/j2.png)
 
 **Recorrido BFS:**  
 Usa `Queue` con `LinkedList` para recorrer nivel por nivel.
 
 **Función main:**
 
-> 📸 *[Insertar captura: Ilustración 16 — Main en Java]*  
-> 📸 *[Insertar captura: Ilustración 17 — Impresión de recorridos en Java]*
+![Ejecución del caso SmartCampus UTA en C++](img/j3.png)
 
 **Caso real — SmartCampus UTA (Java):**
 
-> 📸 *[Insertar captura: Ilustración 18 — Caso Real SmartCampus en Java]*
+![Ejecución del caso SmartCampus UTA en C++](img/j4.png)
 
 **Capturas de ejecución Java:**
 
-> 📸 *[Insertar captura — Ejecución completa del árbol base en Java]*  
-> 📸 *[Insertar captura — Ejecución del caso SmartCampus UTA en Java]*
+![Ejecución del caso SmartCampus UTA en C++](img/j5.png)
+![Ejecución del caso SmartCampus UTA en C++](img/j6.png)
 
 ---
 
@@ -309,7 +308,7 @@ Usa `Queue` con `LinkedList` para recorrer nivel por nivel.
 
 ## 🔗 Repositorio
 
-> **Link:** `https://github.com/<tu-usuario>/Recorrido_Arboles_Binarios`  
-> *(Reemplaza `<tu-usuario>` con tu nombre de usuario de GitHub)*
+> **Link:** `https://github.com/Alexis112008/Recorrido_Arboles_Binarios`  
+
 
 ---
