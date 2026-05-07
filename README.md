@@ -242,7 +242,7 @@ Usa `Queue` con `LinkedList` para recorrer nivel por nivel.
 
 **Función main:**
 
-![Ejecución del caso SmartCampus UTA en C++](img/j3.png)
+![Ejecución del caso SmartCampus UTA en C++](img/es.png)
 
 **Caso real — SmartCampus UTA (Java):**
 
@@ -250,7 +250,7 @@ Usa `Queue` con `LinkedList` para recorrer nivel por nivel.
 
 **Capturas de ejecución Java:**
 
-![Ejecución del caso SmartCampus UTA en C++](img/j5.png)
+![Ejecución del caso SmartCampus UTA en C++](img/es1.png)
 ![Ejecución del caso SmartCampus UTA en C++](img/j6.png)
 
 **Explicación del caso real — SmartCampus UTA:**
