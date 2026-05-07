@@ -15,6 +15,8 @@ class Nodo {
     }
 }
 
+
+
 public class Main {
 
     // Recorrido en preorden: Raíz -> Izquierda -> Derecha
@@ -129,6 +131,13 @@ public class Main {
             raiz.izquierda.derecha = new Nodo(7); // Hijo derecho del nodo 5 con valor 7
             raiz.derecha.izquierda = new Nodo(12); // Hijo izquierdo del nodo 15 con valor 12
             raiz.derecha.derecha = new Nodo(20); // Hijo derecho del nodo 15 con valor 20
+
+            // 5 nodos adicionales
+            raiz.izquierda.izquierda.izquierda = new Nodo(1);
+            raiz.izquierda.izquierda.derecha   = new Nodo(3);
+            raiz.derecha.izquierda.derecha     = new Nodo(13);
+            raiz.derecha.izquierda.derecha.derecha            = new Nodo(14);
+            raiz.derecha.izquierda.derecha.derecha.izquierda  = new Nodo(11);
 
             System.out.println("RECORRIDOS DE ARBOLES BINARIOS - UTA");
 

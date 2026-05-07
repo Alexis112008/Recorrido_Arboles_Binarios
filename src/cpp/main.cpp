@@ -17,6 +17,8 @@ struct Nodo {
     }
 };
 
+
+
 // PREORDEN  →  Raíz - Izquierda - Derecha, utilizado para copiar árboles o evaluar expresiones
 void preorden(Nodo* raiz) {       // Si el nodo es nulo, no hacemos nada
     if (raiz == nullptr) return;  
@@ -59,6 +61,8 @@ void bfs(Nodo* raiz) {
         if (actual->derecha != nullptr) cola.push(actual->derecha);
     }
 }
+
+
 
 // CASO REAL - SmartCampus UTA
 void casoRealSmartCampus() {
@@ -163,3 +167,4 @@ int main() {
 
     return 0;
 }
+
