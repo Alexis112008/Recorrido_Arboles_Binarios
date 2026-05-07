@@ -24,17 +24,32 @@ Modifique el árbol anterior agregando los nodos 1, 3, 18 y 25. Ejecute nuevamen
 Al agregar los nodos, el árbol se reorganiza manteniendo las reglas del BST.  
 Los recorridos cambian según la nueva estructura pero el orden sigue siendo el mismo concepto.
 
+Codigo C++
+(img/c1.png)
+Codigo JAVA
+(img/v1.png)
+
 ## Ejercicio 3
 Implemente una función que cuente la cantidad total de nodos del árbol.
 
 Se cuenta recorriendo todo el árbol y sumando cada nodo visitado.  
 Es una función recursiva simple que devuelve el total.
 
+Codigo C++
+(img/c2.png)
+Codigo JAVA
+(img/v2.png)
+
 ## Ejercicio 4
 Implemente una función que cuente las hojas del árbol.
 
 Se cuentan los nodos que no tienen hijos (hojas).  
 Se verifica izquierda y derecha en cada nodo.
+
+Codigo C++
+(img/c3.png)
+Codigo JAVA
+(img/v3.png)
 
 ## Ejercicio 5 aplicado al proyecto final
 Represente los módulos de un sistema web como un árbol binario. Ejemplo:
